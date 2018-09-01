@@ -6,7 +6,7 @@
 				padding: 0;
 			}
 			
-			#drag-1, #drag-2,#drag-3,#drag-4,#drag-5,#drag-{
+			#drag-1, #drag-2,#drag-3,#drag-4,#drag-5,#drag-6{
 				  -webkit-transform: translate(0px, 0px);
           			transform: translate(0px, 0px);
 			}
@@ -41,6 +41,7 @@
 				background-image: url("https://www.transparenttextures.com/patterns/grunge-wall.png");
 				box-shadow: 4px 4px 10px #8F8F8F;
 				display: flex;
+				border: 5px solid grey;
 				flex-wrap: wrap;
 				max-width: 1280px;
 				margin: 0 20px 20px;
@@ -56,7 +57,8 @@
 }
 
 			.postit {
-				font-family: 'Caveat Brush', cursive;
+				color: rgba(0,0,0,0.80);
+				font-family: 'Indie Flower', cursive;
 				margin: 20px;
 				width: 250px;
 				height: 250px;
@@ -64,7 +66,6 @@
 				padding: 10px 15px 15px 15px;
 				border-bottom-right-radius: 60px 5px ;
 				box-shadow: 0px 4px 5px -4px black;
-				
 				
 				background: rgba(240,193,9,1);
 				background: -moz-linear-gradient(top, rgba(240,193,9,1) 0%, rgba(240,193,9,1) 11%, rgba(255,207,21,1) 16%, rgba(254,231,119,1) 100%);
